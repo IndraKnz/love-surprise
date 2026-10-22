@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Ilustrasi lampu malam dan kota">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#160616"/>
+      <stop offset=".45" stop-color="#3d1030"/>
+      <stop offset=".78" stop-color="#7a1c46"/>
+      <stop offset="1" stop-color="#b2315e"/>
+    </linearGradient>
+    <radialGradient id="bok3" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffd9a8" stop-opacity=".95"/>
+      <stop offset=".55" stop-color="#ff9ec4" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ff9ec4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="b3"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="b3b"><feGaussianBlur stdDeviation="26"/></filter>
+    <radialGradient id="vig3" cx=".5" cy=".45" r=".72">
+      <stop offset=".5" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0b0209" stop-opacity=".72"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#sky3)"/>
+  <g fill="url(#bok3)" filter="url(#b3b)">
+    <circle cx="200" cy="240" r="70"/>
+    <circle cx="640" cy="170" r="54"/>
+    <circle cx="760" cy="420" r="46"/>
+    <circle cx="150" cy="520" r="58"/>
+    <circle cx="470" cy="330" r="40"/>
+  </g>
+  <g fill="url(#bok3)" filter="url(#b3)">
+    <circle cx="330" cy="200" r="16"/>
+    <circle cx="520" cy="120" r="11"/>
+    <circle cx="700" cy="300" r="18"/>
+    <circle cx="240" cy="400" r="12"/>
+    <circle cx="800" cy="200" r="9"/>
+    <circle cx="90" cy="330" r="14"/>
+    <circle cx="600" cy="470" r="10"/>
+  </g>
+  <g fill="#ffe9c9">
+    <circle cx="360" cy="90" r="2.6"/><circle cx="610" cy="70" r="2"/>
+    <circle cx="120" cy="140" r="2.2"/><circle cx="820" cy="90" r="2.4"/>
+    <circle cx="440" cy="60" r="1.8"/><circle cx="690" cy="520" r="2"/>
+  </g>
+  <path d="M0 830 h70 v-90 h50 v-70 h60 v160 h70 v-120 h60 v-60 h50 v180 h80 v-90 h60 v90 h70 v-140 h60 v140 h60 v-80 h70 v80 h50 v-100 h60 v270 H0Z" fill="#1a0611" opacity=".95"/>
+  <g fill="#ffc98a" opacity=".8">
+    <rect x="86" y="790" width="8" height="8"/><rect x="110" y="820" width="8" height="8"/>
+    <rect x="196" y="770" width="8" height="8"/><rect x="220" y="800" width="8" height="8"/>
+    <rect x="330" y="740" width="8" height="8"/><rect x="356" y="790" width="8" height="8"/>
+    <rect x="470" y="760" width="8" height="8"/><rect x="500" y="800" width="8" height="8"/>
+    <rect x="640" y="760" width="8" height="8"/><rect x="672" y="800" width="8" height="8"/>
+    <rect x="790" y="780" width="8" height="8"/><rect x="820" y="810" width="8" height="8"/>
+  </g>
+  <rect width="900" height="1100" fill="url(#vig3)"/>
+</svg>

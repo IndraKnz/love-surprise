@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Ilustrasi mawar merah">
+  <defs>
+    <radialGradient id="bg2" cx=".5" cy=".42" r=".78">
+      <stop offset="0" stop-color="#7d1a3d"/>
+      <stop offset=".55" stop-color="#4a0c23"/>
+      <stop offset="1" stop-color="#1c040d"/>
+    </radialGradient>
+    <radialGradient id="petal2" cx=".5" cy=".18" r=".95">
+      <stop offset="0" stop-color="#ff8fb0"/>
+      <stop offset=".45" stop-color="#e03763"/>
+      <stop offset=".8" stop-color="#a3123f"/>
+      <stop offset="1" stop-color="#5c0a22"/>
+    </radialGradient>
+    <radialGradient id="petal3" cx=".5" cy=".25" r=".9">
+      <stop offset="0" stop-color="#ffc2d2"/>
+      <stop offset=".5" stop-color="#f0577f"/>
+      <stop offset="1" stop-color="#96123a"/>
+    </radialGradient>
+    <filter id="glow2" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <radialGradient id="vig2" cx=".5" cy=".45" r=".7">
+      <stop offset=".5" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#12020a" stop-opacity=".7"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg2)"/>
+  <circle cx="450" cy="520" r="330" fill="#e03763" opacity=".22" filter="url(#glow2)"/>
+
+  <g transform="translate(450 540)">
+    <!-- kelopak luar -->
+    <g fill="url(#petal2)" opacity=".95">
+      <ellipse rx="250" ry="170" cy="-150" transform="rotate(0)"/>
+      <ellipse rx="250" ry="170" cy="-150" transform="rotate(60)"/>
+      <ellipse rx="250" ry="170" cy="-150" transform="rotate(120)"/>
+      <ellipse rx="250" ry="170" cy="-150" transform="rotate(180)"/>
+      <ellipse rx="250" ry="170" cy="-150" transform="rotate(240)"/>
+      <ellipse rx="250" ry="170" cy="-150" transform="rotate(300)"/>
+    </g>
+    <!-- kelopak tengah -->
+    <g fill="url(#petal3)" opacity=".97">
+      <ellipse rx="170" ry="118" cy="-96" transform="rotate(30)"/>
+      <ellipse rx="170" ry="118" cy="-96" transform="rotate(102)"/>
+      <ellipse rx="170" ry="118" cy="-96" transform="rotate(174)"/>
+      <ellipse rx="170" ry="118" cy="-96" transform="rotate(246)"/>
+      <ellipse rx="170" ry="118" cy="-96" transform="rotate(318)"/>
+    </g>
+    <!-- kelopak dalam -->
+    <g fill="url(#petal3)">
+      <ellipse rx="104" ry="72" cy="-56" transform="rotate(70)"/>
+      <ellipse rx="104" ry="72" cy="-56" transform="rotate(160)"/>
+      <ellipse rx="104" ry="72" cy="-56" transform="rotate(250)"/>
+      <ellipse rx="104" ry="72" cy="-56" transform="rotate(340)"/>
+    </g>
+    <!-- pusat -->
+    <circle r="58" fill="#7d0f2e"/>
+    <path d="M-42 6 q20 -46 46 -30 q30 18 8 44 q-22 26 -46 6 q-16 -14 4 -28" fill="#ffb3c6" opacity=".85"/>
+    <path d="M-10 -34 q26 -8 34 16 q8 26 -20 30" fill="none" stroke="#8d1132" stroke-width="7" opacity=".6"/>
+  </g>
+
+  <g fill="#2a0714" opacity=".9">
+    <path d="M450 900 q-30 -150 40 -230 q30 90 -10 230Z"/>
+    <path d="M470 780 q120 -30 190 40 q-120 60 -190 -40Z" opacity=".85"/>
+    <path d="M440 830 q-130 -20 -180 60 q130 40 180 -60Z" opacity=".85"/>
+  </g>
+  <rect width="900" height="1100" fill="url(#vig2)"/>
+</svg>

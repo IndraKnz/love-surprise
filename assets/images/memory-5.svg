@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Ilustrasi kelopak mawar di atas kertas krem">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8ee"/>
+      <stop offset=".5" stop-color="#ffe9e0"/>
+      <stop offset="1" stop-color="#ffd2cf"/>
+    </linearGradient>
+    <linearGradient id="p5" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#ffd0dd"/>
+      <stop offset=".5" stop-color="#f0688e"/>
+      <stop offset="1" stop-color="#b01743"/>
+    </linearGradient>
+    <linearGradient id="p5b" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#ffe3ea"/>
+      <stop offset=".55" stop-color="#f593ab"/>
+      <stop offset="1" stop-color="#cf2f5b"/>
+    </linearGradient>
+    <filter id="sh5" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#8a1b38" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg5)"/>
+  <g filter="url(#sh5)">
+    <path d="M250 300 q90 -130 180 -10 q80 110 -60 190 q-120 70 -180 -40 q-40 -80 60 -140Z" fill="url(#p5)" opacity=".95" transform="rotate(-12 250 300)"/>
+    <path d="M600 210 q110 -60 150 50 q36 106 -80 140 q-110 32 -140 -60 q-26 -80 70 -130Z" fill="url(#p5b)" opacity=".92" transform="rotate(18 660 260)"/>
+    <path d="M520 620 q120 -80 170 30 q46 104 -70 150 q-116 44 -150 -50 q-30 -84 50 -130Z" fill="url(#p5)" opacity=".9" transform="rotate(-24 580 680)"/>
+    <path d="M180 720 q100 -70 150 20 q46 88 -56 130 q-102 40 -134 -46 q-26 -70 40 -104Z" fill="url(#p5b)" opacity=".88" transform="rotate(22 250 780)"/>
+    <path d="M660 880 q90 -60 130 24 q38 82 -54 112 q-88 28 -112 -44 q-20 -60 36 -92Z" fill="url(#p5)" opacity=".85" transform="rotate(-8 700 930)"/>
+  </g>
+  <g fill="#a3173f" opacity=".75">
+    <path d="M420 400 c-16 -30 -60 -22 -60 12 c0 26 30 46 60 68 c30 -22 60 -42 60 -68 c0 -34 -44 -42 -60 -12Z" transform="scale(.42) translate(560 760)"/>
+    <path d="M420 400 c-16 -30 -60 -22 -60 12 c0 26 30 46 60 68 c30 -22 60 -42 60 -68 c0 -34 -44 -42 -60 -12Z" transform="scale(.3) translate(1180 250)"/>
+  </g>
+  <g stroke="#b01743" stroke-width="5" fill="none" opacity=".55" stroke-linecap="round">
+    <path d="M300 470 q30 60 6 120"/>
+    <path d="M640 400 q-20 50 8 96"/>
+    <path d="M330 880 q40 50 20 110"/>
+  </g>
+</svg>

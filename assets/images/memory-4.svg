@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Ilustrasi laut saat senja">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b0a1d"/>
+      <stop offset=".3" stop-color="#6b1640"/>
+      <stop offset=".55" stop-color="#c22d5f"/>
+      <stop offset=".72" stop-color="#f38b9c"/>
+      <stop offset=".84" stop-color="#ffc9a6"/>
+      <stop offset="1" stop-color="#ffe6cd"/>
+    </linearGradient>
+    <linearGradient id="sea4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd7bb"/>
+      <stop offset=".12" stop-color="#e8849a"/>
+      <stop offset=".45" stop-color="#8c2348"/>
+      <stop offset="1" stop-color="#2b0714"/>
+    </linearGradient>
+    <linearGradient id="glint4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff2d8" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#ffd0a8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur4"><feGaussianBlur stdDeviation="6"/></filter>
+    <radialGradient id="vig4" cx=".5" cy=".5" r=".75">
+      <stop offset=".55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#180410" stop-opacity=".6"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#sky4)"/>
+  <circle cx="450" cy="600" r="78" fill="#fff5e0" opacity=".95" filter="url(#blur4)"/>
+  <g fill="#ffd8c0" opacity=".45">
+    <ellipse cx="220" cy="330" rx="150" ry="18"/>
+    <ellipse cx="650" cy="270" rx="190" ry="14"/>
+    <ellipse cx="470" cy="430" rx="230" ry="16"/>
+  </g>
+  <rect y="600" width="900" height="500" fill="url(#sea4)"/>
+  <rect x="400" y="600" width="100" height="500" fill="url(#glint4)" opacity=".55" filter="url(#blur4)"/>
+  <g stroke="#ffe7cf" stroke-width="4" stroke-linecap="round" opacity=".55" fill="none">
+    <path d="M120 690 q40 -10 80 0"/>
+    <path d="M600 720 q50 -12 100 0"/>
+    <path d="M240 780 q60 -14 120 0"/>
+    <path d="M520 840 q70 -16 140 0"/>
+    <path d="M160 910 q60 -14 120 0"/>
+    <path d="M580 960 q60 -14 120 0"/>
+  </g>
+  <g fill="#1c0410" opacity=".92">
+    <path d="M0 1050 q120 -70 240 -20 q120 50 240 10 q140 -46 260 20 q80 44 160 10 v30 H0Z"/>
+  </g>
+  <rect width="900" height="1100" fill="url(#vig4)"/>
+</svg>
